@@ -1,11 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3rd Year CS Timetable</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: center;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      font-size: 14px;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    .highlight {
+      background-color: yellow;
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body>
-    Hello ABESEC
+  <h2>ABES Engineering College - Department of CS<br>
+      3rd Year Timetable (Sept 2025)</h2>
+
+  <table>
+    <tr>
+      <th>Day</th>
+      <th>9:00 - 10:00</th>
+      <th>10:00 - 11:00</th>
+      <th>11:00 - 12:00</th>
+      <th>12:00 - 1:00</th>
+      <th>1:00 - 2:00</th>
+      <th>2:00 - 3:00</th>
+      <th>3:00 - 4:00</th>
+      <th>4:00 - 5:00</th>
+    </tr>
+    
+    <tr>
+      <td>Monday</td>
+      <td>DBMS</td>
+      <td>CN</td>
+      <td>AI</td>
+      <td class="highlight">Lab</td>
+      <td rowspan="5">Lunch</td>
+      <td>OS</td>
+      <td>DAA</td>
+      <td>SE</td>
+    </tr>
+    
+    <tr>
+      <td>Tuesday</td>
+      <td>DAA</td>
+      <td>OS</td>
+      <td class="highlight">DBMS Lab</td>
+      <td class="highlight">DBMS Lab</td>
+      <td>AI</td>
+      <td>CN</td>
+      <td>SE</td>
+    </tr>
+    
+    <tr>
+      <td>Wednesday</td>
+      <td>SE</td>
+      <td>AI</td>
+      <td>CN</td>
+      <td>DAA</td>
+      <td class="highlight">Lab</td>
+      <td class="highlight">Lab</td>
+      <td>OS</td>
+    </tr>
+    
+    <tr>
+      <td>Thursday</td>
+      <td>OS</td>
+      <td>DAA</td>
+      <td>DBMS</td>
+      <td>SE</td>
+      <td>CN</td>
+      <td>AI</td>
+      <td class="highlight">Lab</td>
+    </tr>
+    
+    <tr>
+      <td>Friday</td>
+      <td>AI</td>
+      <td>OS</td>
+      <td>CN</td>
+      <td>DBMS</td>
+      <td>DAA</td>
+      <td>SE</td>
+      <td class="highlight">Lab</td>
+    </tr>
+  </table>
 </body>
 </html>
